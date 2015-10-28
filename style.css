@@ -1,6 +1,6 @@
-body { background-image: "img/index_background.jpg";
+body { background-image: url ("img/index_background.jpg");
 }
-nav bar {  background-image: "img/bar_background.png";
+nav bar {  background-image: url ("img/bar_background.png");
 
-  
+
 }
