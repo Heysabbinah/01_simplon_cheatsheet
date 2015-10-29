@@ -33,15 +33,13 @@ li  {
   margin-top: 30px;
   margin-right: 140px;
 }
-li img {
+li a {
     opacity: 1.0;
-    filter:alpha(opacity=100);
-    border:0;
-    }
+
 }
 
-  li img :hover{
-  opacity: 0.5;
-  filter:alpha(opacity=50);
-  background:#FFF;
+  li a :hover {
+  opacity: 0.7;
+  color: grey;
+
    }
