@@ -1,7 +1,11 @@
+/*///////////////////////////-----CSS ECRAN DESKTOP---------------////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (min-width: 900px) {
+
 body {
   background-image: url("img/index_background.jpg");
-  margin:auto;
-
+  margin: 100%;
   background-color: white;
   background-repeat: no-repeat;
   background-color: white;
@@ -10,22 +14,29 @@ body {
 }
 #container  {
 
-margin: auto;
+  margin: auto;
   background-repeat: no-repeat;
   position: absolute; z-index: 1;
 }
 
-#navbar img {
-  /*background-image: url("/img/bar_background.jpg");*/
-  margin-top: 280px;
-  margin-left: 200px;
-  position: absolute; z-index: 4;
+#nav  {
+
+    width: 1100px;
+    height: 120px;
+    background-color: rgba(251,244,235, 0.7);
+    margin-top: 220px;
+    margin-left: 100px;
+    border-radius: 6px;
+    position: absolute; z-index: 4;
 
 }
-#item_navbar{
-  margin-left: 130px;
+#item img{
+  margin-left: 100px;
+  margin-top: 20px;
+  position: absolute; z-index: 5;
 
 }
+
 li  {
   list-style: none;
   display: inline-block;
@@ -33,6 +44,7 @@ li  {
   margin-top: 30px;
   margin-right: 140px;
 }
+
 li a {
     opacity: 1.0;
 
@@ -43,3 +55,120 @@ li a {
   color: grey;
 
    }
+   }
+
+   /*///////////////////////////-----CSS TABLETTE---------------////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////*/
+@media all and (min-width: 768px) and (max-width: 899px) {
+
+   body {
+     background-image: url("img/index_background.jpg");
+     width: 100%;
+     background-color: white;
+     background-repeat: no-repeat;
+     background-color: white;
+     overflow: hidden;
+
+   }
+   #container  {
+
+     margin: auto;
+     background-repeat: no-repeat;
+     position: absolute; z-index: 1;
+   }
+
+   #nav  {
+
+       width: 1100px;
+       height: 120px;
+       background-color: rgba(251,244,235, 0.7);
+
+       margin-top: 220px;
+       margin-left: 100px;
+       border-radius: 6px;
+       position: absolute; z-index: 4;
+
+   }
+   #item img{
+     margin-left: 100px;
+     margin-top: 20px;
+     position: absolute; z-index: 5;
+
+   }
+   li  {
+     list-style: none;
+     display: inline-block;
+     vertical-align: middle;
+     margin-top: 30px;
+     margin-right: 140px;
+   }
+   li a {
+       opacity: 1.0;
+
+   }
+
+     li a :hover {
+     opacity: 0.7;
+     color: grey;
+
+      }
+      }
+
+   /*///////////////////////////-----CSS ECRAN SMARTPHONE---------------////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (max-width: 480px) {
+
+   body {
+     background-image: url("img/index_background.jpg");
+     margin: 0;
+     widht: 100%;
+     background-color: white;
+     background-repeat: no-repeat;
+     background-color: white;
+     overflow: hidden;
+
+   }
+   #container  {
+
+     margin: 0;
+     background-repeat: no-repeat;
+     position: absolute; z-index: 1;
+   }
+
+   #nav  {
+
+       width: 1100px;
+       height: 120px;
+       background-color: rgba(251,244,235, 0.7);
+
+       margin-top: 220px;
+       margin-left: 100px;
+       border-radius: 6px;
+       position: absolute; z-index: 4;
+
+   }
+   #item img{
+     margin-left: 100px;
+     margin-top: 20px;
+     position: absolute; z-index: 5;
+
+   }
+   li  {
+     list-style: none;
+     display: inline-block;
+     vertical-align: middle;
+     margin-top: 30px;
+     margin-right: 140px;
+   }
+   li a {
+       opacity: 1.0;
+
+   }
+
+     li a :hover {
+     opacity: 0.7;
+     color: grey;
+
+      }
+      }
