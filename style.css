@@ -80,22 +80,21 @@ li a {
 
     #nav  {
 
-        width: 76%;
-        height: 50%;
-        background-color: rgba(251,244,235, 0.7);
-        margin-top: 20%;
-        margin-left: 10%;
-        border-radius: 6px;
-        position: absolute; z-index: 4;
-        display: inline-block;
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
-
-        padding: 0 auto;
+    width: 77%;
+    height: 19%;
+    background-color: rgba(251, 244, 235, 0.7);
+    margin-top: 26%;
+    margin-left: 11%;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 4;
+    display: inline-block;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 
     }
-    #item img{
+    li img{
         display: inline-block;
         position: absolute; z-index: 5;
         margin: 0 auto;
@@ -142,23 +141,26 @@ li a {
 
     #nav  {
 
-        width: 76%;
-        height: 20%;
-        background-color: rgba(251,244,235, 0.7);
-        margin-top: 20%;
-        margin-left: 10%;
-        border-radius: 6px;
-        position: absolute; z-index: 4;
-        display: inline-block;
-
-        padding: 0 auto;
+        width: 59%;
+height: 49%;
+background-color: rgba(251, 244, 235, 0.7);
+margin-top: 32%;
+margin-left: 19%;
+border-radius: 6px;
+position: absolute;
+z-index: 4;
+display: inline-block;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+padding-top: 1%;
 
     }
-    #item img{
-        display: inline-block;
-        position: absolute; z-index: 5;
-        margin: 0 auto;
-
+    li img{
+        list-style: outside none none;
+display: inline-block;
+vertical-align: middle;
+margin-right: 9.8%;
     }
 
     li  {
