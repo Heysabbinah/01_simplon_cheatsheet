@@ -18,32 +18,36 @@ body {
 }
 
 #nav  {
-
-width: 54%;
-height: 23%;
-background-color: rgba(251, 244, 235, 0.7);
-margin-top: 20%;
-margin-left: 21%;
-border-radius: 6px;
-position: absolute;
-z-index: 4;
-display: inline-block;
+    width: 65%;
+    height: 19%;
+    background-color: rgba(251, 244, 235, 0.7);
+    margin-top: 26%;
+    margin-left: 18%;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 4;
+    display: inline-block;
 
 }
+
+ul {
+    margin: 0 auto;
+}
+
+li  {
+  list-style: outside none none;
+  display: inline-block;
+  margin-right: 15.8%;
+}
+
 li img {
-    
+
     display: inline-block;
     position: absolute; z-index: 5;
     margin: 0 auto;
 
 }
 
-li  {
-    list-style: outside none none;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 3.8%;
-}
 
 li a {
     opacity: 1.0;
