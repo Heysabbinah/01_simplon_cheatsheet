@@ -80,11 +80,11 @@ li a {
 
     #nav  {
 
-    width: 77%;
-    height: 19%;
+        width: 53%;
+    height: 37%;
     background-color: rgba(251, 244, 235, 0.7);
     margin-top: 26%;
-    margin-left: 11%;
+    margin-left: 23%;
     border-radius: 6px;
     position: absolute;
     z-index: 4;
@@ -92,7 +92,7 @@ li a {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-
+    padding-top: 5%;
     }
     li img{
         display: inline-block;
@@ -141,11 +141,10 @@ li a {
 
     #nav  {
 
-        width: 59%;
-height: 49%;
+        width: 68%;
+height: 31%;
 background-color: rgba(251, 244, 235, 0.7);
-margin-top: 32%;
-margin-left: 19%;
+margin-left: 16%;
 border-radius: 6px;
 position: absolute;
 z-index: 4;
@@ -154,21 +153,23 @@ background-position: center center;
 background-size: cover;
 background-attachment: fixed;
 padding-top: 1%;
+margin-top: 25%;
 
     }
     li img{
         list-style: outside none none;
-display: inline-block;
 vertical-align: middle;
 margin-right: 9.8%;
+width: 68%;
+height: 21%;
     }
 
     li  {
-      list-style: none;
-      display: inline-block;
-      vertical-align: middle;
-      /*margin-top: 30px;*/
-      margin-right: 2.8%;
+        list-style: outside none none;
+  vertical-align: middle;
+  display: inline-block;
+  width: 49%;
+  margin-right: 0px;
     }
 
     li a {
