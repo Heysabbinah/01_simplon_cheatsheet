@@ -18,15 +18,15 @@ body {
 }
 
 #nav  {
-    width: 65%;
-    height: 19%;
-    background-color: rgba(251, 244, 235, 0.7);
-    margin-top: 26%;
-    margin-left: 18%;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 4;
-    display: inline-block;
+    width: 79%;
+height: 16%;
+background-color: rgba(251, 244, 235, 0.7);
+border-radius: 6px;
+display: inline-block;
+padding-top: 0%;
+z-index: 4;
+margin-top: 26%;
+margin-left: 19%;
 
 }
 
@@ -35,9 +35,9 @@ ul {
 }
 
 li  {
-  list-style: outside none none;
+    list-style: outside none none;
   display: inline-block;
-  margin-right: 15.8%;
+  padding-right: 16%;
 }
 
 li img {
@@ -64,7 +64,7 @@ li a {
 
    /*///////////////////////////-----CSS TABLETTE---------------////////////////////////////////
    ///////////////////////////////////////////////////////////////////////////////////////////////*/
-@media all and (min-width: 481px) and (max-width: 899px) {
+@media all and (min-width: 600px){
 
     body {
       background-image: url("img/index_background.jpg");
@@ -74,39 +74,36 @@ li a {
       background-color: white;
       overflow: hidden;
       font-size: 62.5%;
-
-
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
     }
 
     #nav  {
+        width: 59%;
+height: 45%;
+background-color: rgba(251, 244, 235, 0.7);
+margin-top: 26%;
+margin-left: 19%;
+border-radius: 6px;
+z-index: 4;
+padding-top: 0%;
+display: inline-block;}
 
-        width: 53%;
-    height: 37%;
-    background-color: rgba(251, 244, 235, 0.7);
-    margin-top: 26%;
-    margin-left: 23%;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 4;
-    display: inline-block;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 5%;
-    }
     li img{
-        display: inline-block;
-        position: absolute; z-index: 5;
-        margin: 0 auto;
+        z-index: 5;
+margin-bottom: 0px;
+display: inline-block;
+margin-right: 7%;
 
     }
 
     li  {
-      list-style: none;
-      display: inline-block;
-      vertical-align: middle;
-      /*margin-top: 30px;*/
-      margin-right: 2.8%;
+        list-style: outside none none;
+display: inline-block;
+padding-right: 14%;
+padding-top: 18%;
+
     }
 
     li a {
@@ -126,7 +123,7 @@ li a {
    /*///////////////////////////-----CSS ECRAN SMARTPHONE---------------////////////////////////////
    ///////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 599px) {
 
     body {
       background-image: url("img/index_background.jpg");
@@ -136,40 +133,38 @@ li a {
       background-color: white;
       overflow: hidden;
       font-size: 62.5%;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
 
     }
 
     #nav  {
 
-        width: 68%;
-height: 31%;
-background-color: rgba(251, 244, 235, 0.7);
-margin-left: 16%;
-border-radius: 6px;
-position: absolute;
-z-index: 4;
-display: inline-block;
-background-position: center center;
-background-size: cover;
-background-attachment: fixed;
-padding-top: 1%;
-margin-top: 25%;
+        background-color: rgba(251, 244, 235, 0.7);
+        margin-top: 5%;
+        margin-left: 19%;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 4;
+        padding-left: 6%;
+        display: inline-block;
+        width: 65%;
 
     }
-    li img{
-        list-style: outside none none;
-vertical-align: middle;
-margin-right: 9.8%;
-width: 68%;
-height: 21%;
-    }
-
     li  {
         list-style: outside none none;
-  vertical-align: middle;
-  display: inline-block;
-  width: 49%;
-  margin-right: 0px;
+        display: inline-block;
+
+    }
+
+    li img{
+        z-index: 5;
+        margin-bottom: 0px;
+        display: inline-block;
+        width: 58%;
+        margin-right: 10%;
+        margin-top: 0px;
     }
 
     li a {
