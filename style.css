@@ -11,24 +11,27 @@ body {
   background-color: white;
   overflow: hidden;
   font-size: 62.5%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 
 }
 
 #nav  {
 
-    width: 76%;
-    height: 20%;
-    background-color: rgba(251,244,235, 0.7);
-    margin-top: 20%;
-    margin-left: 10%;
-    border-radius: 6px;
-    position: absolute; z-index: 4;
-    display: inline-block;
-
-    padding: 0 auto;
+width: 54%;
+height: 23%;
+background-color: rgba(251, 244, 235, 0.7);
+margin-top: 20%;
+margin-left: 21%;
+border-radius: 6px;
+position: absolute;
+z-index: 4;
+display: inline-block;
 
 }
-#item img{
+li img {
+    
     display: inline-block;
     position: absolute; z-index: 5;
     margin: 0 auto;
@@ -36,11 +39,10 @@ body {
 }
 
 li  {
-  list-style: none;
+    list-style: outside none none;
   display: inline-block;
   vertical-align: middle;
-  /*margin-top: 30px;*/
-  margin-right: 2.8%;
+  margin-right: 3.8%;
 }
 
 li a {
@@ -68,9 +70,7 @@ li a {
       background-color: white;
       overflow: hidden;
       font-size: 62.5%;
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center center;
+
 
     }
 
